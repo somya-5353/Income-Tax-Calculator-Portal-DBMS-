@@ -1,0 +1,454 @@
+/* styling.css */
+body{
+   background:url(https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724245_960_720.jpg) no-repeat center center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+/*limit the width of the icons section*/
+.container{
+    max-width: 1000px;
+    height:250px;
+    padding:30px;
+}
+/*Style icons section using bootstrap grid system*/
+.bodyimage{
+    height: 100px;   
+}
+.bodyimage:hover{
+    width:150px;
+    height:150px;
+}
+.col-md-4{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+   font-family:cursive;  
+}
+
+.icons p{
+    font-size: 15px;   
+}
+#he{
+    font-family:cursive; 
+    color:black;
+    text-align: center;
+    margin-left: 160px;
+    padding: 55px;
+    letter-spacing: 3px;
+font-size: 50px;   
+}
+#he1{
+    font-family:cursive; 
+    color:black;
+    text-align: center;
+    margin-left: 230px;
+    padding: 55px;
+    letter-spacing: 3px;
+font-size:35px;   
+}
+.main{
+    position:fixed;
+    height:100px;
+    width: 300px;
+    
+}
+
+#main1{
+
+    left:520px;
+    border:none;
+}
+.ut{
+    height:50px;
+     background:url(https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724245_960_720.jpg) no-repeat center center;
+    color:black;
+    font-size: 20px;
+    
+}
+
+::placeholder{
+    color:black;
+    font-family:cursive; 
+    text-align: center;
+}
+.contact{
+
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.btn{
+    width:320px;
+    background-color:rgb(23,233,174,0.8);
+    font-family:cursive; 
+    border-radius:60px;
+    color:black;
+    font-size:18px;
+    padding:10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+
+#s1{
+    color:black;
+}
+.link{
+    color:black;
+}
+.link:hover{
+    font-size:1.5em;
+    color:black;
+}
+.head{
+    color:black;
+}
+.head:hover{
+    color:#f2f2b6;
+}
+.sign1{
+   position:fixed;
+    height:300px;
+    width: 300px;
+    color:white;
+}
+#sign2{
+    left:520px;
+}
+.bodyimage1{
+    height: 100px;
+}
+.bodyimage5{
+    height: 280px;
+    transform:translate(-50px,150px);
+}
+#image{
+    right:540px;
+}
+.image1{
+     position:fixed;
+    height:100px;
+    width: 300px;
+    color:white;
+    transform:translate(120px,-120px);
+}
+
+#p1{
+    color:white;
+}
+.logo{
+    height:30px;
+}
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+    font-family:cursive;
+    font-family:Arvo,Serif;
+}  
+
+.nav li:hover{
+    border-bottom: 1px solid #00FFB8; 
+    padding-bottom: 9px;
+    cursor: pointer;
+} 
+.btn1{
+    width:320px;
+    background-color:rgb(23,233,174,0.8);
+    font-family:cursive; 
+    border-radius:20px;
+    color:white;
+    font-size:18px;
+    padding:10px 70px;
+    letter-spacing: 1.3px;
+    transform:translate(80px);
+}
+.btn1:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+.contact1{
+
+    margin-top:10px;
+    margin-bottom: 30px;
+    margin-left:550px;
+}
+#add{
+    color:black;
+    font-family:cursive;
+}
+.add1{
+    color:black;
+}
+#add2{
+    color:black;
+    font-family:cursive;
+    transform:translate(450px)
+}
+.adds{
+    transform:translate(490px,10px)
+}
+.btn2{
+    width:360px;
+    background-color:rgb(23,233,174,0.8);
+    font-family:cursive; 
+    border-radius:5px;
+    color:black;
+    font-size:18px;
+    padding:10px 100px;
+    letter-spacing: 1.3px;
+    margin-left:-130px
+    
+}
+.btn2:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+.back{
+  float:right;
+}
+.power{
+    height:30px;
+    float:right;
+    transform:translate(0,18px);
+}
+
+.btn3{
+    width:360px;
+    background-color:rgb(23,233,174,0.8);
+    font-family:cursive; 
+    border-radius:5px;
+    color:black;
+    font-size:18px;
+    padding:10px 100px;
+    letter-spacing: 1.3px;
+    margin-left:-170px
+    
+}
+.btn3:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+#add3{
+    color:black;
+    font-family:cursive;
+    transform:translate(440px)
+}
+.logo1{
+    height:40px;
+}
+#add4{
+    color:black;
+    font-family:cursive;
+    transform:translate(453px)
+}
+.btn4{
+    width:360px;
+    background-color:rgb(23,233,174,0.8);
+    font-family:cursive; 
+    border-radius:5px;
+    color:black;
+    font-size:18px;
+    padding:10px 100px;
+    letter-spacing: 1.3px;
+    margin-left:-148px
+    
+}
+.btn4:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+#para{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(520px)
+}
+#para1{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(520px)
+}
+#para2{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(520px)
+}
+#para3{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(520px)
+}
+#para4{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(520px)
+}
+#par{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(530px)
+}
+#par1{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(530px)
+}
+#par2{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(530px)
+}
+#par3{
+    color:black;
+    font-family:cursive;
+    font-size:18px;
+    transform:translate(530px)
+}
+.st{
+    transform:translate(620px)
+}
+
+#rep{
+    color:white;
+    font-family:cursive;
+    transform:translate(525px)
+}
+#detail{
+    color:black;
+    font-family:cursive;
+    transform:translate(530px)
+}
+.ut1{
+    height:40px;
+    color:black;
+    font-size: 20px;
+   background:url(https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724245_960_720.jpg) no-repeat center center;
+}
+.btnuser{
+    width:360px;
+    background-color:rgb(23,233,174,0.8);
+    font-family:cursive; 
+    border-radius:5px;
+    color:white;
+    font-size:18px;
+    padding:10px 100px;
+    letter-spacing: 1.3px;
+    margin-left:-170px
+    
+}
+.btnuser:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+.bodyimagex{
+    height: 20px; 
+    transform:translate(350px,-60px)
+}
+.msg1{
+    height:10px;
+    color:white;
+    transform:translate(400px,-60px);
+}
+.bodyimagey{
+    height: 20px; 
+    transform:translate(350px,-60px)
+}
+.msg2{
+    height:30px;
+    width:320px;
+    color:black;
+    transform:translate(400px,-90px);
+}
+.ct{
+    width:400px;
+    font-size:1.5em;
+    height:50px;
+  color:#f2f2b6;
+background:url(imgs/galaxy.jpg) no-repeat center center;
+}
+.ct1{
+    width:800px;
+    height:50px;
+  
+  
+background:url(imgs/galaxy.jpg) no-repeat center center;
+}
+.logout{
+    color:white;
+    transform:translate(285px,50px);
+}
+.logout1{
+    color:white;
+    transform:translate(738px,50px);
+}
+.logout2{
+    color:white;
+    transform:translate(522px,50px);
+}
+#button1{
+    width:360px;
+    background-color:rgb(23,233,174,0.8);
+    font-family:cursive; 
+    border-radius:5px;
+    color:black;
+    font-size:18px;
+    padding:10px 100px;
+    letter-spacing: 1.3px;
+    margin-left:-6px;
+}
+.ra{
+     position:fixed;
+    height:100px;
+    width: 1000px;
+    color:white;
+    transform:translate(120px,-120px);
+}
+
+#err{
+    color:red;
+    font-size:0.7em;
+}
+#msgx{
+    width:250px;
+    margin-left:530px;
+   
+}
+#errx{
+    color:red;
+    transform:translate(550px,20px);
+}
+#errx1{
+    color:red;
+    transform:translate(880px,200px);
+}
+#errx2{
+    color:red;
+     transform:translate(880px,500px)
+}
+#msgy{
+    width:250px;
+    color:red;
+}
+#er{
+    color:black;
+}
+.bodyimg{
+    height:100px;
+}
